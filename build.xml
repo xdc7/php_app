@@ -2,7 +2,6 @@
 <exec executable="phpunit" failonerror="true">
   <arg line=" UnitTest UserTest.php" />
  </exec>
- <! -- <copy file="User.php" tofile="/var/www/html/simple_app/User.php"/> -->
  <copy todir="/var/www/html/php_app">
     <fileset dir=".">
       <exclude name="**/*.md"/>
