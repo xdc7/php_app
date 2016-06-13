@@ -257,7 +257,7 @@
   <exec executable="phpdox">
         <!-- Specify the path to phpdox.xml -->
         <arg value="--file=${basedir}/phpdox.xml" />
-
+</exec>
   <property name="phpdox.done" value="true"/>
  </target>
 
