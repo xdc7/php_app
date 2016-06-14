@@ -94,6 +94,7 @@
 
    <fileset dir="${basedir}/tests">
     <include name="**/*.php" />
+	<include name="${basedir}/tests/UserTest.php" />
     <modified />
    </fileset>
   </apply>
